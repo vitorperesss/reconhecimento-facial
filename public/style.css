@@ -1,0 +1,88 @@
+  /* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo com fundo degradê e fonte elegante */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.3);
+}
+
+/* Container para centralizar os controles */
+#nome, button {
+  font-size: 1.1rem;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  margin: 0.5rem 0.7rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Input estilizado */
+#nome {
+  width: 280px;
+  max-width: 90vw;
+  border: 2px solid #fff;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  text-align: center;
+}
+
+#nome::placeholder {
+  color: #ddd;
+}
+
+/* Botão com cor vibrante */
+button {
+  background-color: #0ef41d;
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(94, 255, 116, 0.6);
+}
+
+button:hover {
+  background-color: #4af800;
+  box-shadow: 0 6px 20px rgba(65, 255, 59, 0.8);
+}
+
+/* Status */
+#status {
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  min-height: 24px;
+  text-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+
+/* Vídeo centralizado e com borda suave */
+video {
+  margin-top: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.7);
+  max-width: 90vw;
+  height: auto;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  background-color: black;
+
+}
